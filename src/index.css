@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.grid-areas {
+    display: grid;
+    /* Define el tamaño de las columnas y filas del grid */
+    /* A la columna 1 que es ocupada por el aside principalmente y parte del header y del footer le asigna un área del 10% ancho de pantalla 
+    de forma absoluta. Esto implica que las otras dos columnas que son usadas principalmente por la sección main, se adapten dinámicamente 
+    al espacio restante */
+    grid-template-columns: 150px 1fr 1fr;
+    /* Al header y al footer les asigna un área del 10% del alto de pantalla de forma absoluta */
+    grid-template-rows: 100px 1fr 100px;
+    /* Define las áreas del grid a través de grid-template-areas, la fila 1 es ocupada únicamente por el header. 
+    La fila 2 es ocupada a razón de 1/3 del área por el aside y por el main a razón de 2/3. 
+    La fila 3 es ocupada únicamente por el footer */
+    grid-template-areas:
+    "header header header"
+    "aside main main"
+    "footer footer footer";
+}
+
+.grid-area-header {
+    grid-area: header;
+}
+
+.grid-area-aside {
+    grid-area: aside;
+}
+
+.grid-area-main {
+    grid-area: main;
+}
+
+.grid-area-footer {
+    grid-area: footer;
+}
