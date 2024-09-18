@@ -12,11 +12,11 @@ const Table = ({ data }) => {
 
     return <div className="overflow-x-auto">
         <table className="min-w-full divide-y divide-gray-200 bg-white">
-            {/* --------------------- CABEZERA ---------------------------- */}
-            <thead className="bg-gray-50">
+            {/* --------------------- CABECERA ---------------------------- */}
+            <thead className="bg-[#505050]">
                 <tr>
                     {data.columns.map((item, index) => (
-                        <th key={index} className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                        <th key={index} className="px-6 py-3 text-left text-xs font-medium text-amber-500 uppercase tracking-wider">
                             {item}
                         </th>
                     ))}
@@ -24,11 +24,11 @@ const Table = ({ data }) => {
             </thead>
 
             {/* --------------------- CUERPO ---------------------------- */}
-            <tbody className="bg-white divide-y divide-gray-200">
+            <tbody className="bg-[#505050] divide-y divide-gray-200">
                 {data.data.map((item) => (
                     <tr key={item.id}>
                         {Object.keys(item).map((key, index) => (
-                            <td key={index} className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                            <td key={index} className="px-6 py-4 whitespace-nowrap text-sm text-white">
                                 {convertValue(item[key], key)}
                             </td>
                         ))}

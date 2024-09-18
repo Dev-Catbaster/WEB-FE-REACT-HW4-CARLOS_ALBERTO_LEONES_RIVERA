@@ -6,30 +6,38 @@ export const dofa_data = [
         items: [
             { 
                 id: 1, 
-                name: "Competencia Intensa",
+                name: "Complejidad del modelo",
                 description: `
-                    El mercado de smartphones de gama media está saturado con muchas marcas 
-                    ofreciendo especificaciones similares, lo que puede hacer que el Redmi 
-                    Note 11 se pierda entre la competencia.
+                    La integración de múltiples variables (médicas, preferencias, condiciones financieras, etc.) puede hacer que el modelo sea muy complejo y difícil de optimizar.
                 ` 
             },
             { 
                 id: 2, 
-                name: "Sin Carga Rápida Avanzada",
+                name: "Falta de datos iniciales",
                 description: `
-                    A pesar de su batería de gran capacidad, el Redmi Note 11 no ofrece carga 
-                    rápida a niveles superiores, lo que podría ser un inconveniente para los 
-                    usuarios que necesitan recargar rápidamente.
+                    Al principio, el sistema podría tener dificultades para generar planes precisos debido a la falta de datos históricos y retroalimentación adecuada.
                 ` 
             },
             { 
                 id: 3, 
-                name: "Capacidades de Cámara Limitadas",
+                name: "Dependencia de la retroalimentación especializada",
                 description: `
-                    Aunque la cámara de 50 MP es competente, puede no estar a la par con los 
-                    dispositivos de gama alta en términos de calidad fotográfica y características 
-                    avanzadas.
+                    La necesidad de expertos en salud para validar los resultados puede ralentizar el proceso de desarrollo y perfeccionamiento del sistema.
                 ` 
+            },
+            {
+                id: 4,
+                name: "Recursos limitados",
+                description: `
+                    La cantidad de tiempo y recursos disponibles para el proyecto puede no ser suficiente para cubrir todos los aspectos que se desean implementar.
+                `
+            },
+            {
+                id: 5,
+                name: "Gestión de expectativas",
+                description: `
+                    La creación de planes personalizados puede no siempre coincidir con las expectativas de los usuarios, especialmente si sus objetivos son inalcanzables.
+                `
             }
         ]
     },
@@ -39,28 +47,42 @@ export const dofa_data = [
         items: [
             { 
                 id: 1, 
-                name: "Expansión en Nuevos Mercados",
+                name: "Tendencia en la salud personalizada",
                 description: `
-                    El Redmi Note 11 tiene el potencial de penetrar en mercados emergentes y 
-                    en desarrollo donde la demanda de smartphones asequibles y de alta calidad 
-                    está en aumento.
+                    El creciente interés en aplicaciones de salud digital personalizadas crea una oportunidad para posicionar 
+                    el proyecto en un mercado con alta demanda.
                 ` 
             },
             { 
                 id: 2, 
-                name: "Actualizaciones de Software",
+                name: "Colaboración interdisciplinaria",
                 description: `
-                    Mejorar y mantener actualizaciones periódicas del sistema operativo puede 
-                    atraer a los usuarios interesados en un dispositivo que siempre esté al día 
-                    con las últimas funciones y seguridad.
+                    Hay posibilidades de colaborar con profesionales en medicina, nutrición y entrenamiento físico para mejorar 
+                    la precisión y la eficacia del sistema.
                 ` 
             },
             { 
                 id: 3, 
-                name: "Ampliación de la Línea de Productos",
+                name: "Mejora del bienestar general",
                 description: `
-                    Xiaomi puede aprovechar el éxito del Redmi Note 11 para lanzar versiones 
-                    mejoradas o modelos relacionados, capturando una mayor cuota de mercado.
+                    La implementación del sistema puede contribuir a la mejora de la calidad de vida de los usuarios, 
+                    atrayendo la atención de potenciales inversionistas y usuarios.
+                ` 
+            },
+            { 
+                id: 4, 
+                name: "Avances tecnológicos",
+                description: `
+                    Las nuevas tecnologías, como el procesamiento del lenguaje natural y los dispositivos de seguimiento de salud, 
+                    pueden complementar y fortalecer el modelo predictivo.
+                ` 
+            },
+            { 
+                id: 5, 
+                name: "Feedback directo de usuarios",
+                description: `
+                    Al interactuar directamente con los usuarios, se puede recolectar una gran cantidad de datos para ajustar 
+                    y mejorar las predicciones y recomendaciones del sistema.
                 ` 
             }
         ]
@@ -70,27 +92,42 @@ export const dofa_data = [
         type: "Fortalezas",
         items: [
             { 
-                id: 1, 
-                name: "Pantalla AMOLED de Alta Calidad",
-                description: `
-                    La pantalla AMOLED de 6.43 pulgadas proporciona colores vibrantes y negros 
-                    profundos, mejorando la experiencia visual y el consumo de contenido multimedia.
+                "id": 1, 
+                "name": "Alta personalización",
+                "description": `
+                    El sistema se adaptará a las condiciones médicas, preferencias y restricciones individuales, 
+                    ofreciendo un valor significativo al usuario al crear planes únicos.
                 ` 
             },
             { 
-                id: 2, 
-                name: "Batería de Larga Duración",
-                description: `
-                    Con una capacidad de 5000 mAh, el Redmi Note 11 asegura una duración prolongada de la 
-                    batería, permitiendo un uso intensivo durante todo el día sin necesidad de recargar.
+                "id": 2, 
+                "name": "Enfoque integral",
+                "description": `
+                    La incorporación de múltiples variables como literatura médica, condiciones subyacentes, preferencias personales y restricciones alimenticias 
+                    hace que el sistema sea más robusto y efectivo.
                 ` 
             },
             { 
-                id: 3, 
-                name: "Rendimiento Eficiente",
-                description: `
-                    Equipado con el procesador Snapdragon 680 y 4GB de RAM, el dispositivo ofrece un 
-                    rendimiento fluido y eficiente para tareas diarias y multitarea sin sobresaltos.
+                "id": 3, 
+                "name": "Potencial para el aprendizaje continuo",
+                "description": `
+                    Al incorporar retroalimentación de especialistas, el sistema puede mejorar sus recomendaciones y 
+                    ser más preciso con el tiempo.
+                ` 
+            },
+            { 
+                "id": 4, 
+                "name": "Base técnica sólida",
+                "description": `
+                    El conocimiento en modelos predictivos, redes neuronales e inteligencia artificial proporciona una 
+                    base firme para la implementación del sistema.
+                ` 
+            },
+            { 
+                "id": 5, 
+                "name": "Relevancia en la sociedad actual",
+                "description": `
+                    La salud y el bienestar son temas de gran interés, aumentando la aceptación y utilidad potencial del proyecto.
                 ` 
             }
         ]
@@ -100,28 +137,43 @@ export const dofa_data = [
         type: "Amenazas",
         items: [
             { 
-                id: 1, 
-                name: "Fluctuaciones de Precio en el Mercado",
-                description: `
-                    Cambios en el precio de los componentes y la economía global pueden afectar el 
-                    precio final del dispositivo y su competitividad en el mercado.
+                "id": 1, 
+                "name": "Regulación y privacidad de datos",
+                "description": `
+                    Las aplicaciones relacionadas con la salud están sujetas a regulaciones estrictas, como la protección de datos personales, 
+                    lo que podría limitar el alcance del sistema.
                 ` 
             },
             { 
-                id: 2, 
-                name: "Cambios en las Preferencias del Consumidor",
-                description: `
-                    Las tendencias del mercado pueden cambiar rápidamente, y las preferencias de los 
-                    consumidores pueden inclinarse hacia características o tecnologías nuevas que el 
-                    Redmi Note 11 no ofrezca.
+                "id": 2, 
+                "name": "Competencia",
+                "description": `
+                    La existencia de otras aplicaciones y sistemas que ofrecen planes personalizados de salud y nutrición podría 
+                    dificultar la diferenciación del proyecto.
                 ` 
             },
             { 
-                id: 3, 
-                name: "Problemas de Suministro",
-                description: `
-                    Problemas en la cadena de suministro o dificultades logísticas podrían afectar la 
-                    disponibilidad del producto y su capacidad para satisfacer la demanda.
+                "id": 3, 
+                "name": "Incertidumbre en los resultados",
+                "description": `
+                    La respuesta variable del cuerpo humano a los planes de alimentación y actividad física puede afectar la 
+                    precisión y confiabilidad de las predicciones.
+                ` 
+            },
+            { 
+                "id": 4, 
+                "name": "Riesgos tecnológicos",
+                "description": `
+                    Los cambios tecnológicos o la falta de herramientas adecuadas podrían dificultar la implementación y el 
+                    desarrollo del modelo predictivo.
+                ` 
+            },
+            { 
+                "id": 5, 
+                "name": "Responsabilidad legal",
+                "description": `
+                    Al influir en la salud de los usuarios, el sistema se expone a posibles responsabilidades legales si alguna 
+                    recomendación resulta perjudicial.
                 ` 
             }
         ]
@@ -133,27 +185,23 @@ export const org_iden_data = [
     {
         name: "Misión",
         description: `
-            Nuestra misión es ofrecer tecnología avanzada a precios accesibles, mejorando la vida 
-            cotidiana de las personas a través de productos innovadores y de alta calidad. Buscamos 
-            ser una marca de confianza que inspire y conecte a los usuarios con el futuro digital.
+            Nuestra misión es desarrollar un sistema inteligente y accesible que permita a las personas mejorar su salud y bienestar a través de planes personalizados de alimentación y actividad física. Nos enfocamos en aplicar tecnologías avanzadas como modelos predictivos e inteligencia artificial para crear soluciones adaptadas a las necesidades únicas de cada individuo, fomentando hábitos saludables y un estilo de vida equilibrado.
         `
     },
     {
         name: "Visión",
         description: `
-            Aspiramos a ser el líder global en tecnología accesible, creando dispositivos que combinan innovación, 
-            rendimiento y diseño a la vanguardia. Nos comprometemos a transformar la forma en que las personas 
-            interactúan con la tecnología y a fomentar una sociedad más conectada y avanzada.
+            Aspiramos a convertirnos en un referente global en el uso de tecnología predictiva para el bienestar personal. Queremos ser la plataforma líder que ayude a las personas a alcanzar sus objetivos de salud de manera sostenible, empoderando a los usuarios con recomendaciones basadas en datos, conocimiento especializado y un enfoque holístico que abarca todos los aspectos del bienestar físico y mental.
         `
     },
     {
         name: "Políticas",
         description: `
-            Nos comprometemos a mantener los más altos estándares de calidad en todos nuestros productos, asegurando 
-            durabilidad, funcionalidad y satisfacción del cliente, fomentando la innovación continua en el diseño y 
-            desarrollo de productos, buscando siempre nuevas formas de mejorar la experiencia del usuario, para promover 
-            prácticas sostenibles y responsables en nuestra cadena de suministro y en el impacto ambiental de nuestros 
-            productos, contribuyendo positivamente a la comunidad global.
+            Nos comprometemos a ofrecer planes personalizados de alta calidad que tengan en cuenta las condiciones médicas, preferencias personales y restricciones alimenticias de los usuarios, garantizando así su relevancia y eficacia.
+Fomentamos la innovación continua en el desarrollo y mejora de nuestros modelos predictivos, asegurando que las recomendaciones se mantengan actualizadas con los últimos avances en nutrición, medicina y entrenamiento físico.
+Valoramos la privacidad y seguridad de los datos de los usuarios, implementando estrictos protocolos de protección y respetando la confidencialidad de la información personal.
+Nos esforzamos por colaborar con profesionales en salud y nutrición para validar y perfeccionar las recomendaciones del sistema, asegurando un enfoque basado en evidencia científica.
+Promovemos prácticas éticas y sostenibles en el diseño y funcionamiento del sistema, contribuyendo al bienestar de la comunidad y al fomento de hábitos saludables a largo plazo.
         `
     }
 ]
@@ -165,50 +213,132 @@ export const objectives_data = {
         { 
             id: 1, 
             goal: `
-                Ampliar la distribución del Xiaomi Redmi Note 11 en nuevos mercados internacionales, 
-                aumentando su disponibilidad y penetración global en el próximo año.
+                Desarrollar un modelo predictivo inicial capaz de ofrecer planes de alimentación y 
+                actividad física personalizados, cubriendo al menos un conjunto básico de variables 
+                (edad, género, peso, nivel de actividad) en los próximos 6 meses.
             `, 
-            target: 10000000, 
-            progress: 2000000 
+            target: 100, 
+            progress: 30 
         },
         { 
             id: 2, 
             goal: `
-                Implementar actualizaciones periódicas de software y soporte técnico 
-                eficiente para asegurar una experiencia de usuario fluida y actualizada.
+                Recopilar y analizar un dataset inicial con al menos 1000 entradas, incluyendo datos médicos, 
+                preferencias alimenticias y niveles de actividad, en un periodo de 3 meses para entrenar 
+                el modelo predictivo.
             `, 
-            target: 5000000, 
-            progress: 100000
+            target: 1000, 
+            progress: 600
         },
         { 
             id: 3, 
             goal: `
-                Captar una mayor participación en el mercado de smartphones de gama media, 
-                superando a la competencia en términos de ventas y reconocimiento de marca.
+                Implementar un sistema de retroalimentación con expertos en nutrición y actividad física 
+                para ajustar las recomendaciones, alcanzando al menos 5 ciclos de validación con especialistas 
+                en los próximos 4 meses.
             `, 
-            target: 8000000, 
-            progress: 5000000
+            target: 5, 
+            progress: 2
         },
         { 
             id: 4, 
             goal: `
-                Mejorar la eficiencia en la cadena de suministro y reducir costos operativos para 
-                mantener precios competitivos y garantizar una oferta constante del Redmi Note 11.
+                Integrar al sistema al menos 3 restricciones adicionales (condiciones médicas, 
+                restricciones alimenticias, objetivos personales) para mejorar la personalización de los planes, 
+                en un plazo de 5 meses.
             `, 
-            target: 6000000, 
-            progress: 4500000 
+            target: 3, 
+            progress: 1 
         },
         { 
             id: 5, 
             goal: `
-                Desarrollar nuevas características y mejoras en el diseño del dispositivo para mantener 
-                la relevancia en el mercado y satisfacer las cambiantes expectativas de los consumidores.
+                Validar la precisión del modelo predictivo realizando pruebas con un grupo de al menos 
+                50 usuarios, ajustando las recomendaciones según los resultados obtenidos, en un periodo de 6 meses.
             `, 
-            target: 3000000, 
-            progress: 2700000 
+            target: 50, 
+            progress: 10 
         }
     ].map((item) => {
-        item.compliance = 100 * item.progress / item.target
-        return item
+        item.compliance = 100 * item.progress / item.target;
+        return item;
     })
 }
+
+export const introduction_data = [
+    {
+        name: "Personalización de planes",
+        description: `
+            AI FitPredict personaliza planes de
+alimentación y ejercicio
+considerando variables como datos
+demográficos, historial médico y
+preferencias. Utiliza machine
+learning para generar
+recomendaciones adaptadas a las
+necesidades individuales de cada
+usuario.
+        `
+    },
+    {
+        name: "Comunidad proactiva",
+        description: `
+            Los usuarios pueden interactuar en
+una comunidad donde comparten
+metas y logros, lo que fomenta la
+motivación y sana competencia. A
+su vez, las interacciones ayudan a
+los modelos de machine learning a
+mejorar la personalización de los
+planes.
+        `
+    },
+    {
+        name: "Monitoreo y seguimiento",
+        description: `
+            AI FitPredict recopila datos
+mediante dispositivos y feedback
+de usuarios para monitorear su
+progreso. Ajusta dinámicamente los
+planes de alimentación y ejercicio
+según los resultados obtenidos,
+asegurando recomendaciones
+personalizadas y efectivas.
+        `
+    },
+    {
+        name: "Accesibilidad y usabilidad",
+        description: `
+            AI FitPredict ofrece una plataforma
+móvil accesible con una interfaz
+intuitiva para personalizar planes
+de alimentación y actividad física.
+Está diseñada para ser usada por
+diversos grupos, facilitando el
+monitoreo y análisis de forma
+sencilla.
+        `
+    },
+    {
+        name: "Privacidad y seguridad de datos",
+        description: `
+            AI FitPredict asegura la privacidad
+y seguridad de los datos de los
+usuarios mediante medidas
+robustas y el cumplimiento de
+regulaciones pertinentes.
+        `
+    },
+    {
+        name: "Impacto social y económico",
+        description: `
+            AI FitPredict ofrece planes
+personalizados que mejoran la
+salud, reducen costos de salud y
+fomentan el desarrollo económico y
+social al aumentar la calidad de
+vida y productividad de los
+usuarios.
+        `
+    }
+]

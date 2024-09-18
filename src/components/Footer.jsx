@@ -7,8 +7,8 @@ const Footer = () => {
                 {/* --------------------- CONTACTO ---------------------------- */}
                 <article className="space-y-4">
                     <h3 className="text-xl font-semibold text-yellow-500">Contacto</h3>
-                    <p>Dirección: Calle 45, Barranquilla, Colombia</p>
-                    <p>Correo electrónico: <span className="text-blue-300">contacto@xiaomi.com</span></p>
+                    <p>Dirección: Calle 123, Barranquilla, Atlántico, Colombia</p>
+                    <p>Correo electrónico: <span className="text-blue-300">contacto@aifitpredictlabs.com</span></p>
                     <p>Teléfono: +123 456 789</p>
                 </article>
 
@@ -46,7 +46,7 @@ const Footer = () => {
 
             {/* --------------------- DERECHOS ---------------------------- */}
             <section className="mt-8 text-center">
-                <p>&copy; 2024 Xiaomi Inc. Todos los derechos reservados.</p>
+                <p>&copy; 2024 · FitPredict AI Labs · All rights reserved · © FitPredict AI Labs is a subsidiary of Catbaster Network Inc.</p>
             </section>
         </div>
     </footer>

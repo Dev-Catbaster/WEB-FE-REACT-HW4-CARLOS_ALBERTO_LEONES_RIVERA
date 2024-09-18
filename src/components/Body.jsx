@@ -9,10 +9,10 @@ const Body = () => {
             <header class="grid-area-header bg-[#1F1F1F] flex items-center justify-center">
                 <Header />
             </header>
-            <main class="grid-area-main">
+            <main class="grid-area-main bg-[#2A2A2A] p-[2%]">
                 <Main />
             </main>
-            <aside class="grid-area-aside">
+            <aside class="grid-area-aside bg-[#333333] overflow-y-auto">
                 <Aside />
             </aside>
             <footer class="grid-area-footer">
